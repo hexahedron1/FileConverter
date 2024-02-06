@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>test.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="test.ico" />
+    <Content Include="bin\Debug\net6.0-windows\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GroupDocs.Conversion" Version="24.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="NAudio.Vorbis" Version="1.5.0" />
+    <PackageReference Include="OggVorbisEncoder" Version="1.2.2" />
+    <PackageReference Include="WindowsAPICodePack" Version="7.0.4" />
+    <PackageReference Include="Xabe.FFmpeg" Version="5.2.6" />
+  </ItemGroup>
+
+</Project>
